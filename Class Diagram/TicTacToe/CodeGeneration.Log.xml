@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2017-05-27T02:52:47" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2017-05-27T02:52:47" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2017-05-27T02:52:47" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-05-27T02:52:47" Importance="Diagnostic" Text="ProjectPath = ..\TicTacToeLib\TicTacToeLib.csproj" />
+  <Message Timestamp="2017-05-27T02:52:47" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-05-27T02:52:47" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-05-27T02:52:47" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-05-27T02:52:47" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-05-27T02:52:47" Importance="Medium" Text="TicTacToe's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'TicTacToe::Player' -  (Class), 'TicTacToe::PlayingCourt' -  (Class), 'TicTacToe::Game' -  (Class) " />
+  <Error Timestamp="2017-05-27T02:52:50" Importance="High" Text="Errors encountered in 'ClassTemplate.t4' while generating code for 'TicTacToe::Player' -  (Class)." />
+  <Message Timestamp="2017-05-27T02:52:50" Importance="Diagnostic" Text="warning: Compiling transformation: Invalid search path 'C:\Visual8\VC\ATLMFC\LIB' specified in 'LIB environment variable' -- 'The system cannot find the path specified. '. Line: 0 Column: 0. - C:\PROGRAM FILES (X86)\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-05-27T02:52:50" Importance="Diagnostic" Text="warning: Compiling transformation: Invalid search path 'C:\Visual8\VC\LIB' specified in 'LIB environment variable' -- 'The system cannot find the path specified. '. Line: 0 Column: 0. - C:\PROGRAM FILES (X86)\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-05-27T02:52:50" Importance="Diagnostic" Text="warning: Compiling transformation: Invalid search path 'C:\Visual8\VC\PlatformSDK\lib' specified in 'LIB environment variable' -- 'The system cannot find the path specified. '. Line: 0 Column: 0. - C:\PROGRAM FILES (X86)\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-05-27T02:52:50" Importance="Diagnostic" Text="warning: Compiling transformation: Invalid search path 'C:\Visual8\SD' specified in 'LIB environment variable' -- 'The system cannot find the path specified. '. Line: 0 Column: 0. - C:\PROGRAM FILES (X86)\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-05-27T02:52:50" Importance="Medium" Text="'TicTacToe::Player' -  (Class) : success (file created) - D:\TicTacToe\TicTacToeLib\GeneratedCode\Player.cs" />
+  <Message Timestamp="2017-05-27T02:52:50" Importance="Medium" Text="'TicTacToe::PlayingCourt' -  (Class) : success (file created) - D:\TicTacToe\TicTacToeLib\GeneratedCode\PlayingCourt.cs" />
+  <Message Timestamp="2017-05-27T02:52:51" Importance="Medium" Text="'TicTacToe::Game' -  (Class) : success (file created) - D:\TicTacToe\TicTacToeLib\GeneratedCode\Game.cs" />
+  <Message Timestamp="2017-05-27T02:52:51" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2017-05-27T02:52:51" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-05-27T02:52:51" Importance="Diagnostic" Text="ProjectPath = ..\TicTacToeLib\TicTacToeLib.csproj" />
+  <Message Timestamp="2017-05-27T02:52:51" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-05-27T02:52:51" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-05-27T02:52:51" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-05-27T02:52:51" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-05-27T02:52:51" Importance="Medium" Text="TicTacToe's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'TicTacToe::Player' -  (Class), 'TicTacToe::PlayingCourt' -  (Class), 'TicTacToe::Game' -  (Class) " />
+  <Message Timestamp="2017-05-27T02:52:51" Importance="Diagnostic" Text="'TicTacToe::Player' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-05-27T02:52:51" Importance="Diagnostic" Text="'TicTacToe::PlayingCourt' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-05-27T02:52:51" Importance="Diagnostic" Text="'TicTacToe::Game' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-05-27T02:52:51" Importance="Diagnostic" Text="The selection included 3 elements which were not bound to a template." />
+  <Message Timestamp="2017-05-27T02:52:51" Importance="Diagnostic" Text="'TicTacToe::' -  (Association): no bound template." />
+  <Message Timestamp="2017-05-27T02:52:51" Importance="Diagnostic" Text="'TicTacToe::' -  (Association): no bound template." />
+  <Message Timestamp="2017-05-27T02:52:51" Importance="Diagnostic" Text="'TicTacToe::' -  (Association): no bound template." />
+  <Message Timestamp="2017-05-27T02:52:51" Importance="High" Text="Code generation complete. Errors: 1. Warnings: 0." />
+</Log>
